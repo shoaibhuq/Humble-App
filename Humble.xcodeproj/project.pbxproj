@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3995E34A223A0734000D9F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E349223A0734000D9F47 /* AppDelegate.swift */; };
+		3995E34C223A0734000D9F47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E34B223A0734000D9F47 /* HomeViewController.swift */; };
+		3995E351223A0734000D9F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3995E34F223A0734000D9F47 /* Main.storyboard */; };
+		3995E353223A0739000D9F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3995E352223A0739000D9F47 /* Assets.xcassets */; };
+		3995E356223A0739000D9F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3995E354223A0739000D9F47 /* LaunchScreen.storyboard */; };
+		3995E361223A0739000D9F47 /* HumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E360223A0739000D9F47 /* HumbleTests.swift */; };
+		3995E36C223A0739000D9F47 /* HumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E36B223A0739000D9F47 /* HumbleUITests.swift */; };
+		3995E37C223AEFD7000D9F47 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E37B223AEFD6000D9F47 /* HelpViewController.swift */; };
+		3995E388223FE8BD000D9F47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3995E387223FE8BD000D9F47 /* GoogleService-Info.plist */; };
+		3995E38C22409926000D9F47 /* CouponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E38B22409926000D9F47 /* CouponsViewController.swift */; };
+		3995E38E224127CA000D9F47 /* CouponClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E38D224127CA000D9F47 /* CouponClass.swift */; };
+		3995E3902241E0F3000D9F47 /* CharityPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995E38F2241E0F2000D9F47 /* CharityPicker.swift */; };
+		971F88D3A6240CCC8DF6CA94 /* Pods_HumbleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550C79F710B3B36EAAA2EB32 /* Pods_HumbleUITests.framework */; };
+		E646C6A2546AD132A0AB4BBB /* Pods_Humble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB3ABB43C835EB90852979D /* Pods_Humble.framework */; };
+		F69E791FCE297B5788459028 /* Pods_HumbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F812E0AF6C2790EB0FE1BA /* Pods_HumbleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3995E35D223A0739000D9F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3995E33E223A0734000D9F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3995E345223A0734000D9F47;
+			remoteInfo = Humble;
+		};
+		3995E368223A0739000D9F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3995E33E223A0734000D9F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3995E345223A0734000D9F47;
+			remoteInfo = Humble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3995E346223A0734000D9F47 /* Humble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3995E349223A0734000D9F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3995E34B223A0734000D9F47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3995E350223A0734000D9F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3995E352223A0739000D9F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3995E355223A0739000D9F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3995E357223A0739000D9F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3995E35C223A0739000D9F47 /* HumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3995E360223A0739000D9F47 /* HumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumbleTests.swift; sourceTree = "<group>"; };
+		3995E362223A0739000D9F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3995E367223A0739000D9F47 /* HumbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3995E36B223A0739000D9F47 /* HumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumbleUITests.swift; sourceTree = "<group>"; };
+		3995E36D223A0739000D9F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3995E37B223AEFD6000D9F47 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		3995E387223FE8BD000D9F47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3995E38B22409926000D9F47 /* CouponsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsViewController.swift; sourceTree = "<group>"; };
+		3995E38D224127CA000D9F47 /* CouponClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponClass.swift; sourceTree = "<group>"; };
+		3995E38F2241E0F2000D9F47 /* CharityPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityPicker.swift; sourceTree = "<group>"; };
+		44CDEC89E8FA9F9203C6D6E8 /* Pods-HumbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumbleTests.release.xcconfig"; path = "Target Support Files/Pods-HumbleTests/Pods-HumbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		550C79F710B3B36EAAA2EB32 /* Pods_HumbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C2D7AD031BA039D7BB808E /* Pods-HumbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumbleTests.debug.xcconfig"; path = "Target Support Files/Pods-HumbleTests/Pods-HumbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73F7E758E0C1FAB538232EC9 /* Pods-HumbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumbleUITests.release.xcconfig"; path = "Target Support Files/Pods-HumbleUITests/Pods-HumbleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1F812E0AF6C2790EB0FE1BA /* Pods_HumbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA6F506B4CAA81DC4D4B721 /* Pods-Humble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Humble.debug.xcconfig"; path = "Target Support Files/Pods-Humble/Pods-Humble.debug.xcconfig"; sourceTree = "<group>"; };
+		C73E8DA52F118BB0E011D34B /* Pods-Humble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Humble.release.xcconfig"; path = "Target Support Files/Pods-Humble/Pods-Humble.release.xcconfig"; sourceTree = "<group>"; };
+		CDB3ABB43C835EB90852979D /* Pods_Humble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Humble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCDA9AF5FC24739E7509089 /* Pods-HumbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumbleUITests.debug.xcconfig"; path = "Target Support Files/Pods-HumbleUITests/Pods-HumbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3995E343223A0734000D9F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E646C6A2546AD132A0AB4BBB /* Pods_Humble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E359223A0739000D9F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69E791FCE297B5788459028 /* Pods_HumbleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E364223A0739000D9F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971F88D3A6240CCC8DF6CA94 /* Pods_HumbleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3995E33D223A0734000D9F47 = {
+			isa = PBXGroup;
+			children = (
+				3995E348223A0734000D9F47 /* Humble */,
+				3995E35F223A0739000D9F47 /* HumbleTests */,
+				3995E36A223A0739000D9F47 /* HumbleUITests */,
+				3995E347223A0734000D9F47 /* Products */,
+				4DE560F7DC6DB06F533C61B3 /* Pods */,
+				AD2B33F3F2247563EE73CA6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3995E347223A0734000D9F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3995E346223A0734000D9F47 /* Humble.app */,
+				3995E35C223A0739000D9F47 /* HumbleTests.xctest */,
+				3995E367223A0739000D9F47 /* HumbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3995E348223A0734000D9F47 /* Humble */ = {
+			isa = PBXGroup;
+			children = (
+				3995E349223A0734000D9F47 /* AppDelegate.swift */,
+				3995E3942241FEB9000D9F47 /* Help View */,
+				3995E3912241FE26000D9F47 /* Home View */,
+				3995E3922241FE55000D9F47 /* Coupon View */,
+				3995E34F223A0734000D9F47 /* Main.storyboard */,
+				3995E352223A0739000D9F47 /* Assets.xcassets */,
+				3995E354223A0739000D9F47 /* LaunchScreen.storyboard */,
+				3995E357223A0739000D9F47 /* Info.plist */,
+				3995E387223FE8BD000D9F47 /* GoogleService-Info.plist */,
+			);
+			path = Humble;
+			sourceTree = "<group>";
+		};
+		3995E35F223A0739000D9F47 /* HumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3995E360223A0739000D9F47 /* HumbleTests.swift */,
+				3995E362223A0739000D9F47 /* Info.plist */,
+			);
+			path = HumbleTests;
+			sourceTree = "<group>";
+		};
+		3995E36A223A0739000D9F47 /* HumbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3995E36B223A0739000D9F47 /* HumbleUITests.swift */,
+				3995E36D223A0739000D9F47 /* Info.plist */,
+			);
+			path = HumbleUITests;
+			sourceTree = "<group>";
+		};
+		3995E3912241FE26000D9F47 /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				3995E34B223A0734000D9F47 /* HomeViewController.swift */,
+				3995E38F2241E0F2000D9F47 /* CharityPicker.swift */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		3995E3922241FE55000D9F47 /* Coupon View */ = {
+			isa = PBXGroup;
+			children = (
+				3995E38B22409926000D9F47 /* CouponsViewController.swift */,
+				3995E38D224127CA000D9F47 /* CouponClass.swift */,
+			);
+			path = "Coupon View";
+			sourceTree = "<group>";
+		};
+		3995E3942241FEB9000D9F47 /* Help View */ = {
+			isa = PBXGroup;
+			children = (
+				3995E37B223AEFD6000D9F47 /* HelpViewController.swift */,
+			);
+			path = "Help View";
+			sourceTree = "<group>";
+		};
+		4DE560F7DC6DB06F533C61B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA6F506B4CAA81DC4D4B721 /* Pods-Humble.debug.xcconfig */,
+				C73E8DA52F118BB0E011D34B /* Pods-Humble.release.xcconfig */,
+				60C2D7AD031BA039D7BB808E /* Pods-HumbleTests.debug.xcconfig */,
+				44CDEC89E8FA9F9203C6D6E8 /* Pods-HumbleTests.release.xcconfig */,
+				EFCDA9AF5FC24739E7509089 /* Pods-HumbleUITests.debug.xcconfig */,
+				73F7E758E0C1FAB538232EC9 /* Pods-HumbleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD2B33F3F2247563EE73CA6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3ABB43C835EB90852979D /* Pods_Humble.framework */,
+				A1F812E0AF6C2790EB0FE1BA /* Pods_HumbleTests.framework */,
+				550C79F710B3B36EAAA2EB32 /* Pods_HumbleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3995E345223A0734000D9F47 /* Humble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3995E370223A0739000D9F47 /* Build configuration list for PBXNativeTarget "Humble" */;
+			buildPhases = (
+				8AB74CCEB969590895DF1C8A /* [CP] Check Pods Manifest.lock */,
+				3995E342223A0734000D9F47 /* Sources */,
+				3995E343223A0734000D9F47 /* Frameworks */,
+				3995E344223A0734000D9F47 /* Resources */,
+				399AF1B647CFC6BFE1E8BB5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Humble;
+			productName = Humble;
+			productReference = 3995E346223A0734000D9F47 /* Humble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3995E35B223A0739000D9F47 /* HumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3995E373223A0739000D9F47 /* Build configuration list for PBXNativeTarget "HumbleTests" */;
+			buildPhases = (
+				D4FAD407894864ABE90543BA /* [CP] Check Pods Manifest.lock */,
+				3995E358223A0739000D9F47 /* Sources */,
+				3995E359223A0739000D9F47 /* Frameworks */,
+				3995E35A223A0739000D9F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3995E35E223A0739000D9F47 /* PBXTargetDependency */,
+			);
+			name = HumbleTests;
+			productName = HumbleTests;
+			productReference = 3995E35C223A0739000D9F47 /* HumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3995E366223A0739000D9F47 /* HumbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3995E376223A0739000D9F47 /* Build configuration list for PBXNativeTarget "HumbleUITests" */;
+			buildPhases = (
+				47512C77606AF965AA4B21C9 /* [CP] Check Pods Manifest.lock */,
+				3995E363223A0739000D9F47 /* Sources */,
+				3995E364223A0739000D9F47 /* Frameworks */,
+				3995E365223A0739000D9F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3995E369223A0739000D9F47 /* PBXTargetDependency */,
+			);
+			name = HumbleUITests;
+			productName = HumbleUITests;
+			productReference = 3995E367223A0739000D9F47 /* HumbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3995E33E223A0734000D9F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shoaib Huq";
+				TargetAttributes = {
+					3995E345223A0734000D9F47 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3995E35B223A0739000D9F47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3995E345223A0734000D9F47;
+					};
+					3995E366223A0739000D9F47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3995E345223A0734000D9F47;
+					};
+				};
+			};
+			buildConfigurationList = 3995E341223A0734000D9F47 /* Build configuration list for PBXProject "Humble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3995E33D223A0734000D9F47;
+			productRefGroup = 3995E347223A0734000D9F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3995E345223A0734000D9F47 /* Humble */,
+				3995E35B223A0739000D9F47 /* HumbleTests */,
+				3995E366223A0739000D9F47 /* HumbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3995E344223A0734000D9F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3995E356223A0739000D9F47 /* LaunchScreen.storyboard in Resources */,
+				3995E388223FE8BD000D9F47 /* GoogleService-Info.plist in Resources */,
+				3995E353223A0739000D9F47 /* Assets.xcassets in Resources */,
+				3995E351223A0734000D9F47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E35A223A0739000D9F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E365223A0739000D9F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		399AF1B647CFC6BFE1E8BB5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Humble/Pods-Humble-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Humble/Pods-Humble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47512C77606AF965AA4B21C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumbleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB74CCEB969590895DF1C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Humble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FAD407894864ABE90543BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumbleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3995E342223A0734000D9F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3995E3902241E0F3000D9F47 /* CharityPicker.swift in Sources */,
+				3995E34A223A0734000D9F47 /* AppDelegate.swift in Sources */,
+				3995E34C223A0734000D9F47 /* HomeViewController.swift in Sources */,
+				3995E37C223AEFD7000D9F47 /* HelpViewController.swift in Sources */,
+				3995E38E224127CA000D9F47 /* CouponClass.swift in Sources */,
+				3995E38C22409926000D9F47 /* CouponsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E358223A0739000D9F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3995E361223A0739000D9F47 /* HumbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3995E363223A0739000D9F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3995E36C223A0739000D9F47 /* HumbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3995E35E223A0739000D9F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3995E345223A0734000D9F47 /* Humble */;
+			targetProxy = 3995E35D223A0739000D9F47 /* PBXContainerItemProxy */;
+		};
+		3995E369223A0739000D9F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3995E345223A0734000D9F47 /* Humble */;
+			targetProxy = 3995E368223A0739000D9F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3995E34F223A0734000D9F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3995E350223A0734000D9F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3995E354223A0739000D9F47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3995E355223A0739000D9F47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3995E36E223A0739000D9F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3995E36F223A0739000D9F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3995E371223A0739000D9F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA6F506B4CAA81DC4D4B721 /* Pods-Humble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = Humble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Humble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3995E372223A0739000D9F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73E8DA52F118BB0E011D34B /* Pods-Humble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = Humble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Humble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3995E374223A0739000D9F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C2D7AD031BA039D7BB808E /* Pods-HumbleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = HumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HumbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humble.app/Humble";
+			};
+			name = Debug;
+		};
+		3995E375223A0739000D9F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CDEC89E8FA9F9203C6D6E8 /* Pods-HumbleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = HumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HumbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humble.app/Humble";
+			};
+			name = Release;
+		};
+		3995E377223A0739000D9F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCDA9AF5FC24739E7509089 /* Pods-HumbleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = HumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HumbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Humble;
+			};
+			name = Debug;
+		};
+		3995E378223A0739000D9F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F7E758E0C1FAB538232EC9 /* Pods-HumbleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F3A58SWMP;
+				INFOPLIST_FILE = HumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HumbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Humble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3995E341223A0734000D9F47 /* Build configuration list for PBXProject "Humble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3995E36E223A0739000D9F47 /* Debug */,
+				3995E36F223A0739000D9F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3995E370223A0739000D9F47 /* Build configuration list for PBXNativeTarget "Humble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3995E371223A0739000D9F47 /* Debug */,
+				3995E372223A0739000D9F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3995E373223A0739000D9F47 /* Build configuration list for PBXNativeTarget "HumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3995E374223A0739000D9F47 /* Debug */,
+				3995E375223A0739000D9F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3995E376223A0739000D9F47 /* Build configuration list for PBXNativeTarget "HumbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3995E377223A0739000D9F47 /* Debug */,
+				3995E378223A0739000D9F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3995E33E223A0734000D9F47 /* Project object */;
+}
